@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PackRuler", "PackRuler\PackRuler.csproj", "{27434F58-BBC3-4660-A409-4FD480637D4F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{46562D33-07EC-4278-961E-3CD0F372210D}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureWebsitePublishModule.psm1 = PublishScripts\AzureWebsitePublishModule.psm1
+		PublishScripts\Publish-WebApplicationWebsite.ps1 = PublishScripts\Publish-WebApplicationWebsite.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{EE2D597C-CA9B-45FA-A5AE-B81709F86FC4}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\PackRuler-WAWS-dev.json = PublishScripts\Configurations\PackRuler-WAWS-dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27434F58-BBC3-4660-A409-4FD480637D4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27434F58-BBC3-4660-A409-4FD480637D4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27434F58-BBC3-4660-A409-4FD480637D4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27434F58-BBC3-4660-A409-4FD480637D4F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EE2D597C-CA9B-45FA-A5AE-B81709F86FC4} = {46562D33-07EC-4278-961E-3CD0F372210D}
+	EndGlobalSection
+EndGlobal
